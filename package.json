@@ -1,18 +1,28 @@
 {
-	"name": "Countdown",
-	"version": "0.0.1",
-	"authors": [{
-		"name": "Alan James",
-		"email": "alanjames1987@gmail.com"
-	}],
-	"main": "index.html",
-	"window": {
-		"toolbar": false,
-		"frame": true,
-		"width": 800,
-		"height": 600,
-		"position": "mouse",
-		"min_width": 800,
-		"min_height": 600
-	}
+  "name": "Countdown",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Alan James",
+      "email": "alanjames1987@gmail.com"
+    }
+  ],
+  "main": "index.html",
+  "window": {
+    "icon": "icon/icon.png",
+    "toolbar": false,
+    "frame": true,
+    "width": 800,
+    "height": 600,
+    "position": "mouse",
+    "min_width": 800,
+    "min_height": 600
+  },
+  "dependencies": {
+    "gulp": "3.9.0",
+    "node-webkit-builder": "^1.0.12"
+  },
+  "devDependencies": {
+    "gulp-task-listing": "^1.0.0"
+  }
 }
