@@ -1,30 +1,14 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title></title>
 
-		<style>
-			body{
-				background: white;
-				color:black;
-				text-align: center;
-				font-family: "Arial"
-			}
-			.day{
-				font-size: 4em;
-			}
-			.hour{
-				font-size: 3.33em;
-			}
-			.min{
-				font-size: 2.66em;
-			}
-			.sec{
-				font-size: 2em;
-			}
-		</style>
+	<head>
+
+		<title>Countdown</title>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	</head>
+
 	<body>
 
 		<br />
@@ -39,20 +23,9 @@
 
 		<script src="bower_components/jquery/dist/jquery.min.js"></script>
 		<script src="bower_components/countdown/dest/jquery.countdown.js"></script>
-		<script>
 
-			$('#countdown').countdown({
-				date: 'January 1 2016',
-				render: function(data) {
-					var day = '<span class="day">'+this.leadingZeros(data.days, 2) + ' DAYS<br /></span>';
-					var hour = '<span class="hour">'+this.leadingZeros(data.hours, 2) + ' HOURS<br /></span>';
-					var min = '<span class="min">'+this.leadingZeros(data.min, 2) + ' MINUTES<br /></span>';
-					var sec = '<span class="sec">'+this.leadingZeros(data.sec, 2) + ' SECONDS<br /></span>';
-					$(this.el).html(day + hour + min + sec);
-				},
-			});
-
-		</script>
+		<script src="js/app.js"></script>
 
 	</body>
+
 </html>

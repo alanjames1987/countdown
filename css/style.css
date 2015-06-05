@@ -1,0 +1,18 @@
+body{
+	background: white;
+	color:black;
+	text-align: center;
+	font-family: "Arial"
+}
+.day{
+	font-size: 4em;
+}
+.hour{
+	font-size: 3.33em;
+}
+.min{
+	font-size: 2.66em;
+}
+.sec{
+	font-size: 2em;
+}
