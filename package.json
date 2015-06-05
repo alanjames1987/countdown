@@ -7,7 +7,7 @@
 	}],
 	"main": "index.html",
 	"window": {
-		"icon": "icon/icon.png",
+		"icon": "img/icon.png",
 		"toolbar": false,
 		"frame": true,
 		"width": 800,

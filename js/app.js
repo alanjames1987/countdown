@@ -7,10 +7,11 @@
 	$('#date').datetimepicker();
 
 	$('#date').change(function() {
-		
+
 		date = $(this).val();
-		
+
 		countdown.update(date);
+		countdown.start();
 
 	});
 
