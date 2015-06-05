@@ -18,11 +18,9 @@
     "min_width": 800,
     "min_height": 600
   },
-  "dependencies": {
-    "gulp": "3.9.0",
-    "node-webkit-builder": "^1.0.12"
-  },
   "devDependencies": {
-    "gulp-task-listing": "^1.0.0"
+    "gulp": "3.9.0",
+    "gulp-task-listing": "1.0.0",
+    "node-webkit-builder": "1.0.12"
   }
 }
